@@ -1,16 +1,16 @@
 
-# Deploy on server (by demaxism):
-1. Checkout out this repo in some directory of web server.
-2. Run "npm install"
-3. Open 'js/model/Constants.js', modify:
-        SOCKET_DOMAIN: "www.mydomain.com", // in case of server domain is www.mydomain.com
-        SOCKET_PORT: 8081, // or other port you want
-4. Run "node js/DemoBox2D/server.js", this will use port 8081 as specified above.
-5. Make sure port 8081 is opening on this server.
-6. From client browser, open "www.mydomain.com/realtimemultiplayer/DemoBox2DApp.html"
+# Deploy on server:
+    1. Checkout out this repo in some directory of web server.
+    1. Run "npm install"
+    1. Open 'js/model/Constants.js', modify:
+        `SOCKET_DOMAIN: "www.mydomain.com", // in case of server domain is www.mydomain.com`
+        `SOCKET_PORT: 8081, // or other port you want`
+    1. Run "node js/DemoBox2D/server.js", this will use port 8081 as specified above.
+    1. Make sure port 8081 is opening on this server.
+    1. From client browser, open "www.mydomain.com/realtimemultiplayer/DemoBox2DApp.html"
 
 
-#
+# Original README
 __RealtimeMultiplayerNodeJS is a framework specifically for building HTML5 multiplayer games with the Client / Server model__  
 
 
