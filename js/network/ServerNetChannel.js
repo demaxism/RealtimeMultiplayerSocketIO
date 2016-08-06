@@ -54,6 +54,7 @@
             });
             server.listen(RealtimeMultiplayerGame.Constants.SERVER_SETTING.SOCKET_PORT);
             this.socketio = require('socket.io').listen(server);
+            this.socketio.set('log level', 1); // reduce logging
 
             var that = this;
             this.socketio.configure('production', function () {
