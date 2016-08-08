@@ -7,7 +7,7 @@
         SOCKET_DOMAIN: "www.mydomain.com", // in case of server domain is www.mydomain.com
         SOCKET_PORT: 8081, // or other port you want
 ```
-1. Run "node js/DemoBox2D/server.js", this will use port 8081 as specified above.
+1. Run "node js/DemoBox2D/server.js", socket.io will use port 8081 as specified above.
 1. Make sure port 8081 is opening on this server.
 1. From client browser, open "www.mydomain.com/realtimemultiplayer/DemoBox2DApp.html"
 

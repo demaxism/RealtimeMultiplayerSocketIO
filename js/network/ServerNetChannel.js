@@ -79,7 +79,7 @@
                 that.onSocketConnection(socket)
 
                 socket.on('message', function (data) {
-                    console.log(data)
+                    //console.log(data); // suppress the log of each clock tick
                     that.onSocketMessage(data, socket)
                 });
                 socket.on('disconnect', function () {
